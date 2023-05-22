@@ -1,0 +1,33 @@
+#skills {
+  background-image: url('../img/skills-back.jpg');
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-title {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #906CBE;
+  margin-bottom: 50px;
+}
+
+.skills-kind {
+  background-color: rgb(0, 0, 0);
+  border: 3px solid #555555;
+  border-radius: 100px;
+  padding: 8px 25px;
+  font-size: x-large;
+}
+
+.front-skills {
+  width: 930px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px;
+}

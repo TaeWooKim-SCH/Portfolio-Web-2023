@@ -1,0 +1,115 @@
+#projects {
+  width: 100%;
+  height: 100%;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-title {
+  padding-top: 80px;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #9E8EFF;
+}
+
+.projects-main {
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projects-main-mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 1s;
+  animation: cardOpacity 1s linear;
+}
+
+.hidden {
+  display: none;
+}
+
+.project-img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.project-title {
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+.project-kind {
+  font-size: x-large;
+  font-weight: bold;
+  color: #9E8EFF;
+}
+
+.project-comment {
+  margin: 10px 0;
+  width: 500px;
+}
+
+.arrow-left {
+  position: absolute;
+  left: 200px;
+  margin: 100px;
+  opacity: 1;
+  animation: arrowLeft 1s ease-in-out infinite;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 100px;
+  margin: 100px;
+  opacity: 1;
+  animation: arrowRight 1s ease-in-out infinite;
+}
+
+.arrow:hover {
+  opacity: 1;
+  fill: rgb(201, 201, 201);
+  animation-play-state: paused;
+  transition: 0.5s;
+  width: 120px;
+  height: 120px;
+}
+
+@keyframes arrowLeft {
+  from {
+    left: 100px;
+    opacity: 1;
+  }
+  to {
+    left: 80px;
+    opacity: 0.5;
+  }
+}
+
+@keyframes arrowRight {
+  from {
+    right: 100px;
+    opacity: 1;
+  }
+  to {
+    right: 80px;
+    opacity: 0.5;
+  }
+}
+
+@keyframes cardOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,87 @@
+#about {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/about-back.jpg');
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-color: #503A6B;
+}
+
+.about-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 200px;
+}
+
+.about-title {
+  color: #FFED90;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.title-bottom {
+  color: #FFED90;
+  font-size: 4rem;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+
+.about-bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+}
+
+.about-left {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-skills {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  padding: 35px;
+  backdrop-filter: blur(px);
+}
+
+.about-skill>div {
+  margin-top: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.about-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-comment-box {
+  width: 90%;
+}
+
+.about-comment {
+  font-size: large;
+  margin-bottom: 10px;
+  word-break: keep-all;
+}
+
+.tag-box {
+  width: 90%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.tag-box>div {
+  margin-right: 10px;
+}
