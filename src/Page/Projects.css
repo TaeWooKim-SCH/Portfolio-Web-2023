@@ -63,7 +63,7 @@
   left: 200px;
   margin: 100px;
   opacity: 1;
-  animation: arrowLeft 1s ease-in-out infinite;
+  animation: arrowLeft 1.5s ease-in infinite;
 }
 
 .arrow-right {
@@ -71,37 +71,36 @@
   right: 100px;
   margin: 100px;
   opacity: 1;
-  animation: arrowRight 1s ease-in-out infinite;
+  animation: arrowRight 1.5s ease-in infinite;
 }
 
 .arrow:hover {
   opacity: 1;
-  fill: rgb(201, 201, 201);
-  animation-play-state: paused;
+  fill: rgb(255, 255, 255);
   transition: 0.5s;
-  width: 120px;
-  height: 120px;
 }
 
 @keyframes arrowLeft {
-  from {
+  0% {
     left: 100px;
-    opacity: 1;
   }
-  to {
+  50% {
     left: 80px;
-    opacity: 0.5;
+  }
+  100% {
+    left: 100px;
   }
 }
 
 @keyframes arrowRight {
-  from {
+  0% {
     right: 100px;
-    opacity: 1;
   }
-  to {
+  50% {
     right: 80px;
-    opacity: 0.5;
+  }
+  100% {
+    right: 100px;
   }
 }
 

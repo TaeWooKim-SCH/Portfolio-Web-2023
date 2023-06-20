@@ -5,8 +5,8 @@ import SkillBox from '../Components/SkillBox';
 
 export default function Skills() {
   const frontEnd = ["html", "css", "js", "react", "redux", "node"];
-  const DataScience = ["python", "numpy", "pandas", "sklearn", "r", "mssql"];
-  const Tools = ["notion", "git", "vscode", "postman", "colab", "eclipse"];
+  const DataScience = ["python", "numpy", "pandas", "mssql"];
+  const Tools = ["notion", "git", "vscode", "colab"];
   return(
     <section id="skills">
       <div className="skills-title">SKILLS</div>
