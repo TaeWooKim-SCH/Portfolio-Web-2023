@@ -69,11 +69,16 @@ module.exports = {
     title: "Git",
     text: "각종 명령어를 통해 깃허브와 함께 협업을 할 수 있습니다.",
   },
-  vscode: {
-    img: "/skill-Icon/Tools/vscode.svg",
-    title: "Visual Studio Code",
-    text: "position, display를 적절히 사용하여 반응형웹을 적용할 수 있습니다.",
+  figma: {
+    img: "/skill-Icon/Tools/figma.svg",
+    title: "Figma",
+    text: "다양한 디자인 기능을 활용할 수 있어 디자이너와 소통이 가능합니다.",
   },
+  // vscode: {
+  //   img: "/skill-Icon/Tools/vscode.svg",
+  //   title: "Visual Studio Code",
+  //   text: "position, display를 적절히 사용하여 반응형웹을 적용할 수 있습니다.",
+  // },
   // postman: {
   //   img: "/skill-Icon/Tools/postman.svg",
   //   title: "Postman",
@@ -82,7 +87,7 @@ module.exports = {
   colab: {
     img: "/skill-Icon/Tools/colab.svg",
     title: "Google Colab",
-    text: "position, display를 적절히 사용하여 반응형웹을 적용할 수 있습니다.",
+    text: "Jupyter 기반의 에디터로 데이터 분석할 때 활용할 수 있습니다.",
   },
   // eclipse: {
   //   img: "/skill-Icon/Tools/eclipse.svg",

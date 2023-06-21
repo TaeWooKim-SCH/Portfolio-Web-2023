@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import {AiFillHtml5, AiOutlineBarChart} from 'react-icons/ai';
 import Tag from '../Components/Tag';
+import profile from '../assets/profile.png';
 
 export default function About() {
   return(
@@ -10,7 +11,7 @@ export default function About() {
         <div className="about-title" data-aos = "fade-down" data-aos-duration = "800">
           MY GOAL IS TO BECOME A DEVELOPER WHO CAN DO<p className="title-bottom">EVERYTHING.</p>
         </div>
-        <img className="profile" src="/img/profile.png" alt="프로필 사진"></img>
+        <img className="profile" src={profile} alt="프로필 사진"></img>
       </section>
       <section className="about-bottom">
         <section className='about-left'>
