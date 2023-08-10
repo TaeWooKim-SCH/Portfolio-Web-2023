@@ -20,3 +20,14 @@ html, body, #root, .App {
 body {
   background-color: black;
 }
+
+html::-webkit-scrollbar {
+  background-color: rgb(37, 37, 37);
+  width: 12px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: gray;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
