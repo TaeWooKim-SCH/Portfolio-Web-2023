@@ -9,11 +9,11 @@ export default function Projects() {
 
   const arrowClickHandler = (type) => {
     if (type === "left") {
-      if (page === 0) return;
+      if (page === 0) return setPage(ProjectsData.length - 1);
       setPage((prev) => prev - 1);
     }
     else {
-      if (page === ProjectsData.length - 1) return;
+      if (page === ProjectsData.length - 1) return setPage(0);
       setPage((prev) => prev + 1);
     }
   }
@@ -22,7 +22,6 @@ export default function Projects() {
     <section id="projects">
       <div className='projects-title'>PROJECTS</div>
       <main className="projects-main">
-        <IoIosArrowBack className="arrow arrow-left" size="100" fill='#6D6D6D' onClick={() => arrowClickHandler('left')} />
         {ProjectsData.map((project, index) => (
           <div className={`${!(page === index) && 'hidden'}`} key={index}>
             <ProjectCard
@@ -35,8 +34,9 @@ export default function Projects() {
             />
           </div>
         ))}
-        <IoIosArrowForward className="arrow arrow-right" size="100" fill='#6D6D6D' onClick={() => arrowClickHandler('right')} />
       </main>
+      <IoIosArrowBack className="arrow arrow-left" size="100" fill='#6D6D6D' onClick={() => arrowClickHandler('left')} />
+      <IoIosArrowForward className="arrow arrow-right" size="100" fill='#6D6D6D' onClick={() => arrowClickHandler('right')} />
     </section>
   );
 }
