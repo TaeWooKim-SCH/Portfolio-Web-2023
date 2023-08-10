@@ -66,6 +66,7 @@
   top: 55%;
   opacity: 1;
   animation: arrowLeft 1.5s ease-in infinite;
+  cursor: pointer;
 }
 
 .arrow-right {
@@ -73,6 +74,7 @@
   top: 55%;
   opacity: 1;
   animation: arrowRight 1.5s ease-in infinite;
+  cursor: pointer;
 }
 
 .arrow:hover {
