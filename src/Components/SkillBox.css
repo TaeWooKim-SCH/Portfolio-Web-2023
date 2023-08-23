@@ -24,3 +24,9 @@
 .skill-content {
   line-height: 1.6rem;
 }
+
+@media (max-width: 400px) {
+  .skill-box {
+    width: 200px;
+  }
+}

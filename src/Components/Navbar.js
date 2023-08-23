@@ -11,6 +11,10 @@ const PgBar = styled.div`
   left: 0;
   border-radius: 2px;
   background-color: #FFED90;
+  
+  @media (max-width: 400px) {
+    height: 3px;
+  }
 `
 
 export default function Navbar() {

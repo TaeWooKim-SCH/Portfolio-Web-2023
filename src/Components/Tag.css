@@ -1,7 +1,14 @@
 .tag {
   background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1px);
   border-radius: 10px;
   padding: 5px 10px;
   font-weight: 500;
   padding-top: 1.5px;
+}
+
+@media (max-width: 400px) {
+  .tag {
+    font-size: x-small;
+  }
 }

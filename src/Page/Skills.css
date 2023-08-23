@@ -1,6 +1,4 @@
 #skills {
-  background-image: url('../assets/skills-back.jpg');
-  background-size: cover;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,7 +8,7 @@
 .skills-title {
   padding-top: 100px;
   text-align: center;
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: bold;
   color: #906CBE;
   margin-bottom: 50px;
@@ -30,4 +28,14 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 50px;
+}
+
+@media (max-width: 400px) {
+  .front-skills {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
 }

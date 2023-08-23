@@ -17,6 +17,7 @@ function App() {
 
   return (
     <section className="App">
+      <div className='background-img' />
       <Navbar />
       <Home />
       <About />
