@@ -7,6 +7,7 @@ export default function Skills() {
   const frontEnd = ["html", "css", "js", "react", "redux", "node"];
   const DataScience = ["python", "numpy", "pandas", "mssql"];
   const Tools = ["notion", "git", "figma", "colab"];
+  
   return(
     <section id="skills">
       <div className="skills-title">SKILLS</div>

@@ -25,12 +25,12 @@ export default function Navbar() {
       const {clientHeight} = document.documentElement;
       const {scrollHeight} = document.body;
       const height = scrollHeight - clientHeight;
-      setLocation((scrollTop / height) * 100)
-  }, [])
+      setLocation((scrollTop / height) * 100);
+  }, []);
 
   useEffect(() => {
     window.addEventListener('scroll', scrollHandler, true);
-  }, [scrollHandler])
+  }, [scrollHandler]);
 
   return(
     <nav>
