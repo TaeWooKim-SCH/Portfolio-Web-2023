@@ -67,7 +67,7 @@
 }
 
 .about-comment-box {
-  width: 90%;
+
 }
 
 .about-comment {
@@ -77,7 +77,6 @@
 }
 
 .tag-box {
-  width: 90%;
   display: flex;
   margin-top: 10px;
 }
