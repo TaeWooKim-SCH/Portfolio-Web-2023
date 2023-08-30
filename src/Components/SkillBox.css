@@ -62,7 +62,7 @@
   line-height: 1.6rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .skill-box {
     width: 200px;
   }
