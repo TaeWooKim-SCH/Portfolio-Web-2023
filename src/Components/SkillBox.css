@@ -1,5 +1,9 @@
-.skill-box {
+.skill-main {
   width: 435px;
+}
+.skill-box {
+  position: relative;
+  width: 150px;
   height: 150px;
   background-color: #141414;
   border: 3px solid #444444;
@@ -7,12 +11,45 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
+.skill-img {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+}
+
+.skill-box:hover {
+  width: 435px;
+  transition: all 1s;
+}
+
+@keyframes view-content {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  60% {
+    width: 290px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .skill-box-right {
+  padding-left: 120px;
   width: 290px;
   height: 100px;
+  animation: view-content 1s linear;
+}
+
+.skill-box-right:hover {
+  display: block;
 }
 
 .skill-title {
