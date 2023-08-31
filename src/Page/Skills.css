@@ -8,10 +8,14 @@
 .skills-title {
   padding-top: 100px;
   text-align: center;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
   color: #906CBE;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+}
+
+.notice-content {
+  margin-bottom: 40px;
 }
 
 .skills-kind {
@@ -19,13 +23,13 @@
   border: 3px solid #555555;
   border-radius: 100px;
   padding: 8px 25px;
-  font-size: x-large;
+  font-size: large;
 }
 
 .front-skills {
   width: 930px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 50px;
 }

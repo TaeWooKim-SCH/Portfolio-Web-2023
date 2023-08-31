@@ -1,12 +1,9 @@
-.skill-main {
-  width: 435px;
-}
 .skill-box {
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background-color: #141414;
-  border: 3px solid #444444;
+  border: 1px solid #444444;
   box-shadow: 0 0 10px 0 #444444;
   display: flex;
   justify-content: space-evenly;
@@ -16,15 +13,42 @@
 }
 
 .skill-img {
+  width: 50px;
   position: absolute;
   top: 50%;
-  left: 40px;
+  left: 25px;
   transform: translateY(-50%);
 }
 
 .skill-box:hover {
-  width: 435px;
-  transition: all 1s;
+  width: 300px;
+  transition: all 100ms;
+}
+
+.skill-box:not(:hover) {
+  width: 100px;
+  transition: all 100ms;
+}
+
+.skill-box:hover .skill-box-right {
+  display: block;
+}
+
+.skill-box-right {
+  padding-left: 100px;
+  padding-right: 10px;
+  animation: view-content 0.8s linear;
+  display: none;
+}
+
+.skill-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.skill-content {
+  line-height: 1.3rem;
+  font-size: 0.8rem;
 }
 
 @keyframes view-content {
@@ -39,27 +63,6 @@
   100% {
     opacity: 1;
   }
-}
-
-.skill-box-right {
-  padding-left: 120px;
-  width: 290px;
-  height: 100px;
-  animation: view-content 1s linear;
-}
-
-.skill-box-right:hover {
-  display: block;
-}
-
-.skill-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.skill-content {
-  line-height: 1.6rem;
 }
 
 @media (max-width: 500px) {
