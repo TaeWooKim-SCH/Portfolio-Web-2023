@@ -18,7 +18,7 @@ html, body, #root, .App {
 }
 
 body {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 html::-webkit-scrollbar {
@@ -39,4 +39,5 @@ html::-webkit-scrollbar-thumb {
   background-size: cover;
   position: fixed;
   z-index: -1;
+  opacity: 0.93;
 }
