@@ -6,8 +6,8 @@ export default function ProjectCard({url, title, kind, comment, tags}) {
       <img className="project-img" alt="프로젝트 이미지" src={url}></img>
       <section className="project-description">
         <article className="project-description-inline">
-          <div>{title}</div>
-          <div>{kind}</div>
+          <div className="project-title">{title}</div>
+          <div className="project-kind">{kind}</div>
         </article>
       </section>
       {/* <div className="project-title">{title}</div>
