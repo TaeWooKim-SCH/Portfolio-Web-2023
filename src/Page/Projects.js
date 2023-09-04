@@ -19,6 +19,7 @@ export default function Projects() {
               kind={project.kind}
               comment={project.comment}
               tags={project.tags}
+              period={project.period}
               key={project.title}
             />
           ))}
