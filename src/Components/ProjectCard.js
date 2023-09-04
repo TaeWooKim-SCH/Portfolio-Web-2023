@@ -1,5 +1,4 @@
 import React from "react";
-import Tag from './Tag';
 
 export default function ProjectCard({url, title, kind, comment, tags, period}) {
   return (
