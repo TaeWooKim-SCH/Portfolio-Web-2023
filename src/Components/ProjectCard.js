@@ -1,36 +1,19 @@
 import React from "react";
 
-export default function ProjectCard({url, title, kind, comment, tags, period}) {
+export default function ProjectCard({projectInfo}) {
   return (
     <main className='project-card-container'>
       <section className="project-card-left-section">
         <section className="project-card-left-top-section">
-          <div className="project-title">{title}</div>
-          <div className="project-period">{kind}, {period}</div>
+          <div className="project-title">{projectInfo.title}</div>
+          <div className="project-period">{projectInfo.kind}, {projectInfo.period}</div>
         </section>
         <section className='project-card-tag-box'>
-          {tags.map((tag) => <div className="project-card-tag" key={tag}># {tag}</div>)}
+          {projectInfo.tags.map((tag) => <div className="project-card-tag" key={tag}># {tag}</div>)}
         </section>
-        <div className="project-card-comment">{comment}</div>
+        <div className="project-card-intro">{projectInfo.intro}</div>
       </section>
-      <img className="project-img" alt="프로젝트 이미지" src={url}></img>
+      <img className="project-img" alt="프로젝트 이미지" src={projectInfo.imgUrl}></img>
     </main>
   );
 }
-
-// import React from "react";
-// import Tag from "./Tag";
-
-// export default function ProjectCard({url, title, kind, comment, tags}) {
-//   return (
-//     <section className='projects-main-mid'>
-//       <img className="project-img" alt="프로젝트 이미지" src={url}></img>
-//       <div className="project-title">{title}</div>
-//       <div className="project-kind">{kind}</div>
-//       <div className="project-comment">{comment}</div>
-//       <div className='tag-box'>
-//         {tags.map((tag) => <Tag word={tag} key={tag} />)}
-//       </div>
-//     </section>
-//   );
-// }
