@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css'
+import './Projects.css';
 import ProjectCard from '../Components/ProjectCard';
 import ProjectsData from '../data/ProjectsData';
 
@@ -10,7 +10,7 @@ export default function Projects() {
       <section className="projects-bottom">
         <section className="projects-main">
           {ProjectsData.map((project, idx) => (
-            <ProjectCard projectInfo={project} key={idx}/>
+            <ProjectCard projectInfo={project} key={idx} />
           ))}
         </section>
       </section>

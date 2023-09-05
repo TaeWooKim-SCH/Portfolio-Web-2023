@@ -19,19 +19,21 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar />
       <Routes>
         <Route
           path="/"
           element={
-            <section className="App">
-              <div className='background-img' />
-              <Home />
-              <About />
-              <Skills />
-              <Projects />
-              <Contact />
-            </section>
+            <>
+              <Navbar />
+              <section className="App">
+                <div className='background-img' />
+                <Home />
+                <About />
+                <Skills />
+                <Projects />
+                <Contact />
+              </section>
+            </>
           }
         />
         <Route path="/projects/:title" element={<ProjectDetail />} />

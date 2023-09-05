@@ -1,4 +1,66 @@
 .project-detail-main-container {
   width: 100%;
+  min-height: 100vh;
   background-color: #222222;
+}
+
+.detail-top {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.detail-top-top-section {
+  display: flex;
+}
+
+.detail-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #FFED90;
+}
+
+.detail-period {
+  font-size: 1.2rem;
+  padding-top: 40px;
+}
+
+.detail-intro {
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+
+.detail-info-section {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  font-size: large;
+  z-index: 5;
+}
+
+.info-text {
+  font-size: x-large;
+}
+
+.info-box {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.info-title {
+  margin-right: 20px;
+  color: #b4b4b4;
+}
+
+.deploy-link, .github-link {
+  z-index: 9999;
+}
+
+.feat-text {
+  margin-bottom: 5px;
 }

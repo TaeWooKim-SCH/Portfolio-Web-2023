@@ -3,8 +3,15 @@ import { Link } from "react-router-dom";
 
 export default function ProjectCard({projectInfo}) {
   return (
-    <Link to={`projects/${projectInfo.title}`} style={{textDecoration: 'none'}}>
-      <main className='project-card-container'>
+    <Link
+      to={`projects/${encodeURIComponent(projectInfo.title)}`}
+      style={{textDecoration: 'none'}}
+    >
+      <main
+        className='project-card-container'
+        data-aos="fade-up"
+      data-aos-duration="500"
+      >
         <section className="project-card-left-section">
           <section className="project-card-left-top-section">
             <div className="project-title">{projectInfo.title}</div>
