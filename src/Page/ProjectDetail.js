@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import ProjectsData from '../data/ProjectsData';
+import { FaShareSquare, FaGithub } from 'react-icons/fa';
 import './ProjectDetail.css';
 
 export default function ProjectDetail() {
@@ -27,6 +28,24 @@ export default function ProjectDetail() {
           <div className="detail-period">{projectData.kind}, {projectData.period}</div>
         </section>
         <div className="detail-intro">{projectData.intro}</div>
+        <section className="link-btn-section">
+          <a
+            className="link-btn deploy"
+            href={projectData.deployLink}
+            target="_blank"rel="noreferrer"
+          >
+            <FaShareSquare fill="black" size="25" />
+            <div className="link-btn-text">사이트 방문하기</div>
+          </a>
+          <a
+            className="link-btn github"
+            href={projectData.githubLink}
+            target="_blank"rel="noreferrer"
+          >
+            <FaGithub fill="black" size="25" />
+            <div className="link-btn-text">Github</div>
+          </a>
+        </section>
       </section>
       <section className="detail-info-section">
         <div className="info-text">Info</div>
@@ -36,24 +55,6 @@ export default function ProjectDetail() {
             <div>{projectData.stack}</div>
           </div>
           <div className="info-box">
-            <div className="info-title">배포 링크</div>
-            <a
-              className='deploy-link'
-              href={projectData.deployLink}
-              target='_blank'
-              rel="noreferrer"
-            >{projectData.deployLink}</a>
-          </div>
-          <div className="info-box">
-            <div className="info-title">깃헙 링크</div>
-            <a
-              className="github-link"
-              href={projectData.githubLink}
-              target='_blank'
-              rel="noreferrer"
-            >{projectData.githubLink}</a>
-          </div>
-          <div className="info-box">
             <div className="info-title">담당 업무</div>
             <div>
               {projectData.feature.map((feat, idx) => (
@@ -61,6 +62,14 @@ export default function ProjectDetail() {
               ))}
             </div>
           </div>
+        </section>
+      </section>
+      <section className="detail-view-section">
+        <div className="info-text">View</div>
+        <section className='detail-view-box'>
+          {projectData.imgs.map((img, idx) => (
+            <img className="detail-project-img" src={img} alt='이미지' key={idx} />
+          ))}
         </section>
       </section>
       <div style={backgroundStyle} />

@@ -18,6 +18,12 @@ module.exports = [
       '결제 페이지: 토스 페이먼트를 이용한 예약 처리와 결제',
       '업체 등록 페이지: 카카오 우편번호 서비스, 이미지 업로드, 이미지 제거',
       '업체 수정 페이지: 업체 등록 페이지 컴포넌트의 재사용'
+    ],
+    imgs: [
+      'https://user-images.githubusercontent.com/106866926/255621691-d95f4411-b1ba-4bea-9f8b-d5667eba1c30.png',
+      'https://user-images.githubusercontent.com/106866926/255621703-c54ff1bf-ea0a-467c-8d4e-a4ce2fbcbce0.png',
+      'https://user-images.githubusercontent.com/106866926/255621723-c6e377af-f7b8-49cc-bd4f-b680512ce913.png',
+      'https://user-images.githubusercontent.com/106866926/255622645-6d5a652d-d54c-4743-9e25-96e2f7156f96.png'
     ]
   },
   {
@@ -40,6 +46,12 @@ module.exports = [
       '결제 페이지: 토스 페이먼트를 이용한 예약 처리와 결제',
       '업체 등록 페이지: 카카오 우편번호 서비스, 이미지 업로드, 이미지 제거',
       '업체 수정 페이지: 업체 등록 페이지 컴포넌트의 재사용'
+    ],
+    imgs: [
+      'https://user-images.githubusercontent.com/106866926/255621691-d95f4411-b1ba-4bea-9f8b-d5667eba1c30.png',
+      'https://user-images.githubusercontent.com/106866926/255621703-c54ff1bf-ea0a-467c-8d4e-a4ce2fbcbce0.png',
+      'https://user-images.githubusercontent.com/106866926/255621723-c6e377af-f7b8-49cc-bd4f-b680512ce913.png',
+      'https://user-images.githubusercontent.com/106866926/255622645-6d5a652d-d54c-4743-9e25-96e2f7156f96.png'
     ]
   },
   {
@@ -61,6 +73,12 @@ module.exports = [
       '결제 페이지: 토스 페이먼트를 이용한 예약 처리와 결제',
       '업체 등록 페이지: 카카오 우편번호 서비스, 이미지 업로드, 이미지 제거',
       '업체 수정 페이지: 업체 등록 페이지 컴포넌트의 재사용'
+    ],
+    imgs: [
+      'https://user-images.githubusercontent.com/106866926/255621691-d95f4411-b1ba-4bea-9f8b-d5667eba1c30.png',
+      'https://user-images.githubusercontent.com/106866926/255621703-c54ff1bf-ea0a-467c-8d4e-a4ce2fbcbce0.png',
+      'https://user-images.githubusercontent.com/106866926/255621723-c6e377af-f7b8-49cc-bd4f-b680512ce913.png',
+      'https://user-images.githubusercontent.com/106866926/255622645-6d5a652d-d54c-4743-9e25-96e2f7156f96.png'
     ]
   },
   {
@@ -83,6 +101,12 @@ module.exports = [
       '결제 페이지: 토스 페이먼트를 이용한 예약 처리와 결제',
       '업체 등록 페이지: 카카오 우편번호 서비스, 이미지 업로드, 이미지 제거',
       '업체 수정 페이지: 업체 등록 페이지 컴포넌트의 재사용'
+    ],
+    imgs: [
+      'https://user-images.githubusercontent.com/106866926/255621691-d95f4411-b1ba-4bea-9f8b-d5667eba1c30.png',
+      'https://user-images.githubusercontent.com/106866926/255621703-c54ff1bf-ea0a-467c-8d4e-a4ce2fbcbce0.png',
+      'https://user-images.githubusercontent.com/106866926/255621723-c6e377af-f7b8-49cc-bd4f-b680512ce913.png',
+      'https://user-images.githubusercontent.com/106866926/255622645-6d5a652d-d54c-4743-9e25-96e2f7156f96.png'
     ]
   },
   {
@@ -104,6 +128,12 @@ module.exports = [
       '결제 페이지: 토스 페이먼트를 이용한 예약 처리와 결제',
       '업체 등록 페이지: 카카오 우편번호 서비스, 이미지 업로드, 이미지 제거',
       '업체 수정 페이지: 업체 등록 페이지 컴포넌트의 재사용'
+    ],
+    imgs: [
+      'https://user-images.githubusercontent.com/106866926/255621691-d95f4411-b1ba-4bea-9f8b-d5667eba1c30.png',
+      'https://user-images.githubusercontent.com/106866926/255621703-c54ff1bf-ea0a-467c-8d4e-a4ce2fbcbce0.png',
+      'https://user-images.githubusercontent.com/106866926/255621723-c6e377af-f7b8-49cc-bd4f-b680512ce913.png',
+      'https://user-images.githubusercontent.com/106866926/255622645-6d5a652d-d54c-4743-9e25-96e2f7156f96.png'
     ]
   },
 ]
