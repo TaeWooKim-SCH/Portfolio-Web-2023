@@ -34,14 +34,14 @@ export default function ProjectDetail() {
         </section>
         <div className="detail-intro">{projectData.intro}</div>
         <section className="link-btn-section">
-          <a
+          {projectData.deployLink && <a
             className="link-btn deploy"
             href={projectData.deployLink}
             target="_blank"rel="noreferrer"
           >
             <FaShareSquare fill="black" size="25" />
             <div className="link-btn-text">사이트 방문하기</div>
-          </a>
+          </a>}
           <a
             className="link-btn github"
             href={projectData.githubLink}

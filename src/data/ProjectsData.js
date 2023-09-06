@@ -63,7 +63,6 @@ module.exports = [
     tags: ["TypeScript", "React", "Redux", "TailwindCSS"],
     period: '2023.05.20 ~ 2023.06.10',
     stack: 'TypeScript, React, TailwindCSS, Recoil',
-    deployLink: 'http://ac-ti-on.s3-website.ap-northeast-2.amazonaws.com',
     githubLink: 'https://github.com/TaeWooKim-SCH/ShoppingMall-Solo-Project',
     feature: [
       '찜 기능 구현',
