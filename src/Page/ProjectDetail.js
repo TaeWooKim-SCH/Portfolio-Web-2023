@@ -2,6 +2,7 @@ import { useLocation } from 'react-router-dom';
 import ProjectsData from '../data/ProjectsData';
 import { FaShareSquare, FaGithub } from 'react-icons/fa';
 import './ProjectDetail.css';
+import { useEffect } from 'react';
 
 export default function ProjectDetail() {
   const pageTitle = decodeURIComponent(useLocation().pathname).substring(10);
@@ -17,6 +18,10 @@ export default function ProjectDetail() {
     filter: 'blur(5px) opacity(5%)',
     color: 'white',
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <main

@@ -9,10 +9,20 @@ module.exports = {
     title: "CSS",
     text: "position, display를 적절히 사용하여 반응형웹을 적용할 수 있습니다.",
   },
+  tailwind: {
+    img: "/skill-Icon/FrontEnd/tailwindcss.svg",
+    title: "TailwindCSS",
+    text: "tailwind-styled-components와 함께 스타일링을 할 수 있습니다.",
+  },
   js: {
     img: "/skill-Icon/FrontEnd/js.svg",
     title: "JavaScript",
     text: "비동기로 받아오는 데이터를 조작할 수 있습니다.",
+  },
+  ts: {
+    img: "/skill-Icon/FrontEnd/ts.svg",
+    title: "TypeScript",
+    text: "기본적인 동적 타입 지정을 할 수 있습니다.",
   },
   react: {
     img: "/skill-Icon/FrontEnd/react.svg",
@@ -24,10 +34,20 @@ module.exports = {
     title: "Redux.js",
     text: "Flux 패턴을 이용해 상태관리를 할 수 있습니다.",
   },
+  recoil: {
+    img: "/skill-Icon/FrontEnd/recoil.svg",
+    title: "Recoil.js",
+    text: "아톰을 생성해 상태관리를 할 수 있습니다.",
+  },
   node: {
     img: "/skill-Icon/FrontEnd/node.svg",
     title: "Node.js",
     text: "Express를 이용해 간단한 서버를 구현할 수 있습니다.",
+  },
+  next: {
+    img: "/skill-Icon/FrontEnd/next.svg",
+    title: "Next.js",
+    text: "서버 컴포넌트와 클라이언트 컴포넌트의 차이를 구분해 SSR을 할 수 있습니다.",
   },
   python: {
     img: "/skill-Icon/DataScience/python.svg",
