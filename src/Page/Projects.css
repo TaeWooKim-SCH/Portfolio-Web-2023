@@ -211,4 +211,8 @@
     height: 80px;
     margin-left: 20px;
   }
+
+  .project-card-container:hover .project-img {
+    pointer-events: none;
+  }
 }
