@@ -44,12 +44,16 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 500px) {
-  .front-skills {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 10px;
+@media (max-width: 1000px) {
+  .notice-content {
+    display: none;
   }
+
+  .divid-box, .front-skills {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  
 }
