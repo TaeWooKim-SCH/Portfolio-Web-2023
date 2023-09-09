@@ -1,21 +1,23 @@
 #projects {
-  position: relative;
-  width: 100%;
-  /* background-color: #222222; */
-  background: linear-gradient(-45deg, #18122B, #393053, #443C68, #635985);
-  background-size: 400% 400%;
-  animation: background-animate 5s linear infinite;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: fit-content;
+  background: linear-gradient(-45deg, #000000, #4e4e4e);
+  background-size: 200% 200%;
+  animation: background-animate 7s linear infinite;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.6);
+  z-index: 13;
 }
 
 .projects-title {
   padding-top: 80px;
   font-size: 5rem;
   font-weight: bold;
-  color: #9E8EFF;
+  color: #906CBE;
 }
 
 .projects-bottom {
