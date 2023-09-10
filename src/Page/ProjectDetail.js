@@ -17,6 +17,7 @@ export default function ProjectDetail() {
     height: '100%',
     filter: 'blur(5px) opacity(5%)',
     color: 'white',
+    zIndex: '999'
   }
 
   useEffect(() => {
@@ -25,7 +26,7 @@ export default function ProjectDetail() {
 
   return (
     <main
-      className="project-detail-main-container"
+      className={`project-detail-main-container`}
     >
       <section className="detail-top">
         <section className="detail-top-top-section">

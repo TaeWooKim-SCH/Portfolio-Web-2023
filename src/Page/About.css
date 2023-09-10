@@ -1,11 +1,12 @@
 #about {
-  position: sticky;
+  /* position: sticky;
   top: 0;
+  z-index: 11; */
+  position: relative;
   width: 100vw;
   height: 100vh;
   background-color: #503a6b;
   box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.6);
-  z-index: 11;
 }
 
 .about-background-img {
