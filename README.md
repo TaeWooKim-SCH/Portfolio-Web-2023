@@ -1,70 +1,10 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Protfolio WebSite
+프론트엔드 신입 개발자 김태우의 포트폴리오입니다. <br/>
+React를 이용해 만든 포트폴리오입니다. <br/>
+포트폴리오 사이트인 만큼 기능적 요소보다는 UI/UX와 디자인에 더욱 신경써서 진행했습니다. 반응형 웹으로 만들어 대부분의 환경에서 사용가능합니다. <br/>
+<a href="https://taewoo-portfolio.netlify.app">배포링크</a>
+![image](https://github.com/TaeWooKim-SCH/Portfolio-Web-2023/assets/79956107/40cb8c0d-07ec-4eac-b2ea-2014bb13fcfd)
+![image](https://github.com/TaeWooKim-SCH/Portfolio-Web-2023/assets/79956107/faf3ce48-8d09-45d4-bf79-250c3090787b)
+![image](https://github.com/TaeWooKim-SCH/Portfolio-Web-2023/assets/79956107/125ff313-c5b3-4490-9dc0-f3649d42ad36)
+![image](https://github.com/TaeWooKim-SCH/Portfolio-Web-2023/assets/79956107/bb32dd17-8b3f-4166-b31a-544eb62e4814)
+![image](https://github.com/TaeWooKim-SCH/Portfolio-Web-2023/assets/79956107/f63fd46f-5e7e-433a-9711-408413ae7b03)
