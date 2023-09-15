@@ -7,7 +7,7 @@ module.exports = [
     comment: `프로젝트를 한다고 생각하는 게 아니라 이 사이트를 갖고 실제 창업을 한다는 생각으로 만들다 보니 정말 완성도가 높은 사이트가 되었다고 생각합니다.
 하지만 아쉬운 점도 있었습니다. 프로젝트 기간이 20일 정도였는데 기획하고 디자인, 기능 구현하기에 시간이 너무 촉박해서 많은 기능을 담지 못한 것에 아쉬웠습니다.`,
     tags: ["TypeScript", "Next.js", "React-Hook-Form", "MongoDB"],
-    period: '2023.07.29 ~ 진행중',
+    period: '2023.07 ~ 2023.08',
     stack: 'TypeScript, React.js, Next.js, CSS Module, MongoDB',
     deployLink: 'https://taewoo-blog.vercel.app',
     githubLink: 'https://github.com/TaeWooKim-SCH/Blog-Project',
